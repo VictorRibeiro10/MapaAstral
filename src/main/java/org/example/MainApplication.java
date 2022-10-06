@@ -14,9 +14,9 @@ public class MainApplication {
         System.out.println("Sistema Mapa Astral");
         System.out.println();
 
-        // INSERIR DATA E HORA DO NASCIMENTO
+
         LocalDateTime victor = LocalDateTime.of(1996, 8, 1, 21, 30);
-        // INSERIR LOCAL DO NASCIMENTO DE ACORDO COM O TIMEZONE
+
         ZoneId localNascimentoVictor = ZoneId.of("America/Sao_Paulo");
 
         ZonedDateTime victorTudo = ZonedDateTime.of(victor, localNascimentoVictor);
